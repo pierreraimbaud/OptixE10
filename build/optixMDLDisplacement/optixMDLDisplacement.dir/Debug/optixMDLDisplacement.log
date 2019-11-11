@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixMDLDisplacement/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixMDLDisplacement/CMakeFiles/generate.stamp is up-to-date.
+  optixMDLDisplacement.cpp
+  optixMDLDisplacement.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixMDLDisplacement.exe

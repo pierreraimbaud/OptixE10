@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\p.raimbaud\Documents\SDK\optixDeviceQuery\optixDeviceQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\p.raimbaud\Documents\SDK\optixDeviceQuery\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{46333FC3-5A0F-3E06-AF5D-E6B89B20A038}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

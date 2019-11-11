@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixDynamicGeometry/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixDynamicGeometry/CMakeFiles/generate.stamp is up-to-date.
+  optixDynamicGeometry.cpp
+  optixDynamicGeometry.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixDynamicGeometry.exe

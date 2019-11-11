@@ -1,0 +1,17 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/sutil/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/sutil/CMakeFiles/generate.stamp is up-to-date.
+  rply.c
+  glew.c
+  Arcball.cpp
+  HDRLoader.cpp
+  Mesh.cpp
+  OptiXMesh.cpp
+  PPMLoader.cpp
+  sutil.cpp
+  tiny_obj_loader.cc
+c:\users\p.raimbaud\documents\sdk\sutil\optixmesh.cpp(249): warning C4267: 'argumento': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
+c:\users\p.raimbaud\documents\sdk\sutil\optixmesh.cpp(256): warning C4267: 'argumento': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
+c:\users\p.raimbaud\documents\sdk\sutil\optixmesh.cpp(259): warning C4267: 'argumento': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
+     Creando biblioteca C:/Users/p.raimbaud/Documents/build/lib/Debug/sutil_sdk.lib y objeto C:/Users/p.raimbaud/Documents/build/lib/Debug/sutil_sdk.exp
+  sutil_sdk.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\sutil_sdk.dll
+  -- Copying if different C:/Users/p.raimbaud/Documents/SDK/support/freeglut/win64/Release/freeglut.dll to C:/Users/p.raimbaud/Documents/build/bin/Debug/freeglut.dll

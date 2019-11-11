@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixDenoiser/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixDenoiser/CMakeFiles/generate.stamp is up-to-date.
+  optixDenoiser.cpp
+  optixDenoiser.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixDenoiser.exe

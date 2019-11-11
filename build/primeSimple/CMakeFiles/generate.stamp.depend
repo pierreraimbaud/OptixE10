@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/p.raimbaud/Documents/SDK/primeSimple/CMakeLists.txt
+C:/Users/p.raimbaud/Documents/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/p.raimbaud/Documents/build/primeSimple/CMakeFiles/primeSimple.dir/primeSimple_generated_primeKernels.cu.obj.depend

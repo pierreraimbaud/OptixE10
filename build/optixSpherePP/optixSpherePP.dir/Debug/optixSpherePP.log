@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixSpherePP/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixSpherePP/CMakeFiles/generate.stamp is up-to-date.
+  optixSpherePP.cpp
+  optixSpherePP.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixSpherePP.exe

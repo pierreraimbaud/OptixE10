@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixBuffersOfBuffers/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixBuffersOfBuffers/CMakeFiles/generate.stamp is up-to-date.
+  optixBuffersOfBuffers.cpp
+  optixBuffersOfBuffers.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixBuffersOfBuffers.exe

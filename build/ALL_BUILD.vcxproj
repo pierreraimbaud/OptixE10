@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{86FA8272-16FE-37D6-8CAB-5220ED584EA6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 6.0.0\include;C:\Users\p.raimbaud\Documents\SDK\sutil;C:\Users\p.raimbaud\Documents\SDK;C:\ProgramData\NVIDIA Corporation\OptiX SDK 6.0.0\include\optixu;C:\Users\p.raimbaud\Documents\SDK\support\mdl-sdk\include;C:\Users\p.raimbaud\Documents\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 6.0.0\include;C:\Users\p.raimbaud\Documents\SDK\sutil;C:\Users\p.raimbaud\Documents\SDK;C:\ProgramData\NVIDIA Corporation\OptiX SDK 6.0.0\include\optixu;C:\Users\p.raimbaud\Documents\SDK\support\mdl-sdk\include;C:\Users\p.raimbaud\Documents\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 6.0.0\include;C:\Users\p.raimbaud\Documents\SDK\sutil;C:\Users\p.raimbaud\Documents\SDK;C:\ProgramData\NVIDIA Corporation\OptiX SDK 6.0.0\include\optixu;C:\Users\p.raimbaud\Documents\SDK\support\mdl-sdk\include;C:\Users\p.raimbaud\Documents\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 6.0.0\include;C:\Users\p.raimbaud\Documents\SDK\sutil;C:\Users\p.raimbaud\Documents\SDK;C:\ProgramData\NVIDIA Corporation\OptiX SDK 6.0.0\include\optixu;C:\Users\p.raimbaud\Documents\SDK\support\mdl-sdk\include;C:\Users\p.raimbaud\Documents\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/p.raimbaud/Documents/SDK -BC:/Users/p.raimbaud/Documents/build --check-stamp-file C:/Users/p.raimbaud/Documents/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/p.raimbaud/Documents/SDK/CMakeLists.txt;C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeCCompiler.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\Macros.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\CompilerInfo.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\ConfigCompilerFlags.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\sse_support.h.in;C:\Users\p.raimbaud\Documents\SDK\CMake\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindCUDA\select_compute_arch.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindOptiX.cmake;C:\Users\p.raimbaud\Documents\SDK\sampleConfig.h.in;C:\Users\p.raimbaud\Documents\SDK\CMake\FindSUtilGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindMDLWrapper.cmake;C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\p.raimbaud\Documents\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/p.raimbaud/Documents/SDK -BC:/Users/p.raimbaud/Documents/build --check-stamp-file C:/Users/p.raimbaud/Documents/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/p.raimbaud/Documents/SDK/CMakeLists.txt;C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeCCompiler.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\Macros.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\CompilerInfo.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\ConfigCompilerFlags.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\sse_support.h.in;C:\Users\p.raimbaud\Documents\SDK\CMake\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindCUDA\select_compute_arch.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindOptiX.cmake;C:\Users\p.raimbaud\Documents\SDK\sampleConfig.h.in;C:\Users\p.raimbaud\Documents\SDK\CMake\FindSUtilGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindMDLWrapper.cmake;C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\p.raimbaud\Documents\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/p.raimbaud/Documents/SDK -BC:/Users/p.raimbaud/Documents/build --check-stamp-file C:/Users/p.raimbaud/Documents/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/p.raimbaud/Documents/SDK/CMakeLists.txt;C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeCCompiler.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\Macros.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\CompilerInfo.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\ConfigCompilerFlags.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\sse_support.h.in;C:\Users\p.raimbaud\Documents\SDK\CMake\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindCUDA\select_compute_arch.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindOptiX.cmake;C:\Users\p.raimbaud\Documents\SDK\sampleConfig.h.in;C:\Users\p.raimbaud\Documents\SDK\CMake\FindSUtilGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindMDLWrapper.cmake;C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\p.raimbaud\Documents\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/p.raimbaud/Documents/SDK -BC:/Users/p.raimbaud/Documents/build --check-stamp-file C:/Users/p.raimbaud/Documents/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/p.raimbaud/Documents/SDK/CMakeLists.txt;C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeCCompiler.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\p.raimbaud\Documents\build\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\Macros.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\CompilerInfo.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\ConfigCompilerFlags.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\sse_support.h.in;C:\Users\p.raimbaud\Documents\SDK\CMake\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindCUDA\select_compute_arch.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindOptiX.cmake;C:\Users\p.raimbaud\Documents\SDK\sampleConfig.h.in;C:\Users\p.raimbaud\Documents\SDK\CMake\FindSUtilGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\p.raimbaud\Documents\SDK\CMake\FindMDLWrapper.cmake;C:\Users\p.raimbaud\Documents\SDK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\p.raimbaud\Documents\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\ZERO_CHECK.vcxproj">
+      <Project>{66668D00-2C2D-3937-9338-645B35369909}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixBuffersOfBuffers\optixBuffersOfBuffers.vcxproj">
+      <Project>{EFB87B00-0601-3E33-998A-3EAECEC3EC52}</Project>
+      <Name>optixBuffersOfBuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixCallablePrograms\optixCallablePrograms.vcxproj">
+      <Project>{7C6C4158-B7D4-3DC9-AB73-2D6733024DAB}</Project>
+      <Name>optixCallablePrograms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixCompressedTexture\optixCompressedTexture.vcxproj">
+      <Project>{11C15326-803F-3B8A-B67C-457F3BA7FEA2}</Project>
+      <Name>optixCompressedTexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixConsole\optixConsole.vcxproj">
+      <Project>{1A1BA6DC-3C77-318F-8921-5D6104B829E1}</Project>
+      <Name>optixConsole</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixDenoiser\optixDenoiser.vcxproj">
+      <Project>{96F31C2B-74D0-38F7-B4EA-5C56DBA646C8}</Project>
+      <Name>optixDenoiser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixDeviceQuery\optixDeviceQuery.vcxproj">
+      <Project>{63B18B55-062B-3458-A87A-809D49552CDB}</Project>
+      <Name>optixDeviceQuery</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixDynamicGeometry\optixDynamicGeometry.vcxproj">
+      <Project>{5C2B590A-F837-3701-AB6A-928B5F4CBB01}</Project>
+      <Name>optixDynamicGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixGeometryTriangles\optixGeometryTriangles.vcxproj">
+      <Project>{35D1C78A-486F-3380-B69C-716220583120}</Project>
+      <Name>optixGeometryTriangles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixHello\optixHello.vcxproj">
+      <Project>{2BBE3FFD-4E7B-3947-B3FD-173308F5C740}</Project>
+      <Name>optixHello</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixInstancing\optixInstancing.vcxproj">
+      <Project>{EBFD446C-9F8A-3555-A849-3C0147F2B6C7}</Project>
+      <Name>optixInstancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixMDLDisplacement\optixMDLDisplacement.vcxproj">
+      <Project>{2C178D2E-962B-3338-9CC5-F58B92EDBAC4}</Project>
+      <Name>optixMDLDisplacement</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixMDLExpressions\optixMDLExpressions.vcxproj">
+      <Project>{3E7A9CA9-71E2-359B-9BE3-C8216F19B024}</Project>
+      <Name>optixMDLExpressions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixMDLSphere\optixMDLSphere.vcxproj">
+      <Project>{ADDBF922-DE00-3AC1-BDA1-8C5BB1369418}</Project>
+      <Name>optixMDLSphere</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixMeshViewer\optixMeshViewer.vcxproj">
+      <Project>{A01D8423-7F7E-37F9-903D-42ED9FB992F5}</Project>
+      <Name>optixMeshViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixMotionBlur\optixMotionBlur.vcxproj">
+      <Project>{DF684A13-A604-335A-9046-D7862DE4B1E9}</Project>
+      <Name>optixMotionBlur</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixParticles\optixParticles.vcxproj">
+      <Project>{258C685F-7DBF-374A-8534-9B14824DED64}</Project>
+      <Name>optixParticles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixPathTracer\optixPathTracer.vcxproj">
+      <Project>{EF8FC688-626C-3C14-9ED4-2726A93667CC}</Project>
+      <Name>optixPathTracer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixPrimitiveIndexOffsets\optixPrimitiveIndexOffsets.vcxproj">
+      <Project>{5B2C890E-3E01-32D6-8E8F-080052BFC667}</Project>
+      <Name>optixPrimitiveIndexOffsets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixRaycasting\optixRaycasting.vcxproj">
+      <Project>{017E9B4D-90A1-3C1D-A168-5887E84665E6}</Project>
+      <Name>optixRaycasting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixSSIMPredictor\optixSSIMPredictor.vcxproj">
+      <Project>{F3008B24-7AED-30E0-BBC2-51ED1E8D2A6A}</Project>
+      <Name>optixSSIMPredictor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixSelector\optixSelector.vcxproj">
+      <Project>{050BEF95-4691-3CDB-8E65-87A2654F3E8D}</Project>
+      <Name>optixSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixSphere\optixSphere.vcxproj">
+      <Project>{88F190C1-FA71-3A82-9F84-38637B4A7560}</Project>
+      <Name>optixSphere</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixSpherePP\optixSpherePP.vcxproj">
+      <Project>{78FED6E3-F354-38CC-A8DE-65C6B644446E}</Project>
+      <Name>optixSpherePP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixTextureSampler\optixTextureSampler.vcxproj">
+      <Project>{20DFA303-681A-3C6C-A5F4-ADD33B028BC5}</Project>
+      <Name>optixTextureSampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixTutorial\optixTutorial.vcxproj">
+      <Project>{DA891E94-0E6C-344F-979C-4DCE23501A31}</Project>
+      <Name>optixTutorial</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\optixWhitted\optixWhitted.vcxproj">
+      <Project>{CC07EC7E-DB07-3EB7-8DB8-1485DABF3E4B}</Project>
+      <Name>optixWhitted</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\primeInstancing\primeInstancing.vcxproj">
+      <Project>{0F71D257-A92D-38E7-9FA0-E1882DBB7113}</Project>
+      <Name>primeInstancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\primeMasking\primeMasking.vcxproj">
+      <Project>{9CDB4D2D-CC40-368B-9F7F-0BD97A5ECA2D}</Project>
+      <Name>primeMasking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\primeMultiBuffering\primeMultiBuffering.vcxproj">
+      <Project>{C4E2EB44-2591-343B-B6AF-08B0B0BAEBFB}</Project>
+      <Name>primeMultiBuffering</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\primeMultiGpu\primeMultiGpu.vcxproj">
+      <Project>{BA65EE94-51F3-3D94-AAAE-1FD06C091C2F}</Project>
+      <Name>primeMultiGpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\primeSimple\primeSimple.vcxproj">
+      <Project>{C0D4D59F-7384-336C-BACB-0FDCE4BDCF89}</Project>
+      <Name>primeSimple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\primeSimplePP\primeSimplePP.vcxproj">
+      <Project>{B737AA53-0C4E-3985-885F-0FC84BEAC260}</Project>
+      <Name>primeSimplePP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p.raimbaud\Documents\build\sutil\sutil_sdk.vcxproj">
+      <Project>{10C586AA-160F-3D9B-AFA9-C51D260C07C3}</Project>
+      <Name>sutil_sdk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

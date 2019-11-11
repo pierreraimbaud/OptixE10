@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/p.raimbaud/Documents/SDK/primeMultiGpu/CMakeLists.txt
+C:/Users/p.raimbaud/Documents/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/p.raimbaud/Documents/build/primeMultiGpu/CMakeFiles/primeMultiGpu.dir/__/primeSimple/primeMultiGpu_generated_primeKernels.cu.obj.depend

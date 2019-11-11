@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixGeometryTriangles/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixGeometryTriangles/CMakeFiles/generate.stamp is up-to-date.
+  optixGeometryTriangles.cpp
+  optixGeometryTriangles.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixGeometryTriangles.exe

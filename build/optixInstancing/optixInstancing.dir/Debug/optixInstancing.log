@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixInstancing/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixInstancing/CMakeFiles/generate.stamp is up-to-date.
+  optixInstancing.cpp
+  optixInstancing.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixInstancing.exe

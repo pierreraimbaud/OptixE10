@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixWhitted/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixWhitted/CMakeFiles/generate.stamp is up-to-date.
+  optixWhitted.cpp
+  optixWhitted.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixWhitted.exe

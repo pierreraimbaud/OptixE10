@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixSSIMPredictor/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixSSIMPredictor/CMakeFiles/generate.stamp is up-to-date.
+  optixSSIMPredictor.cpp
+  optixSSIMPredictor.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixSSIMPredictor.exe

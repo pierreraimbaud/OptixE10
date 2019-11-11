@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixDeviceQuery/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixDeviceQuery/CMakeFiles/generate.stamp is up-to-date.
+  optixDeviceQuery.cpp
+  optixDeviceQuery.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixDeviceQuery.exe

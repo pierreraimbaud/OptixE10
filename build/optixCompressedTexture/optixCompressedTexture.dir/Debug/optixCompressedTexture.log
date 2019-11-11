@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixCompressedTexture/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixCompressedTexture/CMakeFiles/generate.stamp is up-to-date.
+  optixCompressedTexture.cpp
+  optixCompressedTexture.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixCompressedTexture.exe

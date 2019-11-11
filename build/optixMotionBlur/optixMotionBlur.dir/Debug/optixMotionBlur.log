@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixMotionBlur/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixMotionBlur/CMakeFiles/generate.stamp is up-to-date.
+  optixMotionBlur.cpp
+  optixMotionBlur.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixMotionBlur.exe

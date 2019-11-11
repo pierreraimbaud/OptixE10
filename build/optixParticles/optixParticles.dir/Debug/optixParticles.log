@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixParticles/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixParticles/CMakeFiles/generate.stamp is up-to-date.
+  optixParticles.cpp
+  optixParticles.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixParticles.exe

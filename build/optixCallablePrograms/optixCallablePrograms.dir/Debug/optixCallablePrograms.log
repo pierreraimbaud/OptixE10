@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixCallablePrograms/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixCallablePrograms/CMakeFiles/generate.stamp is up-to-date.
+  optixCallablePrograms.cpp
+  optixCallablePrograms.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixCallablePrograms.exe

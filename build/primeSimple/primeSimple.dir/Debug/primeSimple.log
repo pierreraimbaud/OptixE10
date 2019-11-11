@@ -1,0 +1,7 @@
+﻿  Building NVCC (Device) object lib/ptx/Debug/primeSimple_generated_primeKernels.cu.obj
+  CMake Error at primeSimple_generated_primeKernels.cu.obj.cmake:259 (message):
+    Error generating
+    C:/Users/p.raimbaud/Documents/build/lib/ptx/Debug/primeSimple_generated_primeKernels.cu.obj
+  
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppCommon.targets(209,5): error MSB6006: "cmd.exe" salió con el código 1.

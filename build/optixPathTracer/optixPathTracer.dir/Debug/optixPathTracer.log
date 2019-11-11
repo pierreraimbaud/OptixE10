@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixPathTracer/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixPathTracer/CMakeFiles/generate.stamp is up-to-date.
+  optixPathTracer.cpp
+  optixPathTracer.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixPathTracer.exe

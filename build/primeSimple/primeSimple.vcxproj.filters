@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\p.raimbaud\Documents\SDK\primeSimple\primeCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\p.raimbaud\Documents\SDK\primeSimple\primeSimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\p.raimbaud\Documents\SDK\primeSimple\primeCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\p.raimbaud\Documents\SDK\primeSimple\primeKernels.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p.raimbaud\Documents\SDK\primeSimple\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\p.raimbaud\Documents\build\lib\ptx\$(Configuration)\primeSimple_generated_primeKernels.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CUDA Files">
+      <UniqueIdentifier>{3E48F01F-71BE-3BF5-B4E8-AFBE45B1CF35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{50327991-BE8E-3033-9802-41D0A000D2E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{2BF1EF90-F7A9-3FA1-BA3D-F6C11E9B423E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{46333FC3-5A0F-3E06-AF5D-E6B89B20A038}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

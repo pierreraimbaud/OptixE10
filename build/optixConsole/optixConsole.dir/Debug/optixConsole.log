@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixConsole/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixConsole/CMakeFiles/generate.stamp is up-to-date.
+  optixConsole.cpp
+  optixConsole.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixConsole.exe

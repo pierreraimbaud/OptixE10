@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p.raimbaud/Documents/SDK/optixMeshViewer/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p.raimbaud/Documents/build/optixMeshViewer/CMakeFiles/generate.stamp is up-to-date.
+  optixMeshViewer.cpp
+  optixMeshViewer.vcxproj -> C:\Users\p.raimbaud\Documents\build\bin\Debug\optixMeshViewer.exe
